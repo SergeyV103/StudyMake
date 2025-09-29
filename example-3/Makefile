@@ -8,8 +8,8 @@ RELEASE_FLAGS = -O2 -Wall -DNDEBUG
 DEBUG_FLAGS   = -g -O0 -Wall -Wextra
 
 
-RELEASE_EXEC  = casino-royale
-DEBUG_EXEC    = casino-royale-dbg
+RELEASE_EXEC  = Kasino-Royal
+DEBUG_EXEC    = Kasino-royal-dbg
 
 SOURCES       = $(wildcard *.cpp)
 OBJECTS       = $(SOURCES:.cpp=.o)
