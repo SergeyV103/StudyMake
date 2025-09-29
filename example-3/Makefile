@@ -9,7 +9,7 @@ DEBUG_FLAGS   = -g -O0 -Wall -Wextra
 
 
 RELEASE_EXEC  = Kasino-Royal
-DEBUG_EXEC    = Kasino-royal-dbg
+DEBUG_EXEC    = Kasino-Royal-dbg
 
 SOURCES       = $(wildcard *.cpp)
 OBJECTS       = $(SOURCES:.cpp=.o)
